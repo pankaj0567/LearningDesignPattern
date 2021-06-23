@@ -1,5 +1,6 @@
 ﻿using LearningDesignPattern.DesignPattern.Creational.Builder.Program;
 using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
+using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -11,7 +12,13 @@ namespace LearningDesignPattern
             //Builder Pattern
             //ProgramBuilder.Run();
 
-            ProgramPrototype.Run();
+            // Protottype pattern
+            //ProgramPrototype.Run();
+
+            // Singleton Pattern
+            ProgramSingleton.Run();
+
+
             Console.ReadKey();
         }
     }
