@@ -1,4 +1,5 @@
 ﻿using LearningDesignPattern.DesignPattern.Creational.Builder.Example1;
+using LearningDesignPattern.DesignPattern.Creational.Builder.Example2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,18 @@ namespace LearningDesignPattern.DesignPattern.Creational.Builder.Program
             Console.WriteLine("Example 1 End");
             #endregion
 
+            #region Example 2
+            var program2 = new ProgramBuilderExample2();
+            Console.WriteLine("Fluent Builder Inheritance without Recursive Generics Start");
+            program2.FluentBuilderInheritancewithoutRecursiveGenerics();
+            Console.WriteLine("Fluent Builder Inheritance without Recursive Generics End");
+
+            Console.WriteLine("Fluent Builder Inheritance with Recursive Generics Start");
+            Console.WriteLine("");
+            program2.FluentBuilderInheritancewithRecursiveGenerics();
+            Console.WriteLine("");
+            Console.WriteLine("Fluent Builder Inheritance with Recursive Generics End");
+            #endregion
         }
     }
 }

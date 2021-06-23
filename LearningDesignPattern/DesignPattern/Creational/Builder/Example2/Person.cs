@@ -10,6 +10,12 @@ namespace LearningDesignPattern.DesignPattern.Creational.Builder.Example2
     {
         public string Name;
         public string Position;
+        public static Builder New => new Builder();
+
+        public class Builder : PersonJobBuilder<Builder>
+        {
+
+        }
 
         public override string ToString()
         {

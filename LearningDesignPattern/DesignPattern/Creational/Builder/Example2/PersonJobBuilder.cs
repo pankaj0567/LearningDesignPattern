@@ -1,11 +1,12 @@
 ﻿namespace LearningDesignPattern.DesignPattern.Creational.Builder.Example2
 {
-    public class PersonJobBuilder : PersonInfoBuilder
+    public class PersonJobBuilder<TSelf> : PersonInfoBuilder<PersonJobBuilder<TSelf>>
+                                           where TSelf: PersonJobBuilder<TSelf>
     {
-        public PersonJobBuilder WorkAsA(string position)
+        public TSelf WorkAsA(string position)
         {
             person.Position = position;
-            return this;
+            return (TSelf)this;
         }
     }
 }
