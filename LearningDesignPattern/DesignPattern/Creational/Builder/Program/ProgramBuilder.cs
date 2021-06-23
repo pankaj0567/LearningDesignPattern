@@ -1,5 +1,6 @@
 ﻿using LearningDesignPattern.DesignPattern.Creational.Builder.Example1;
 using LearningDesignPattern.DesignPattern.Creational.Builder.Example2;
+using LearningDesignPattern.DesignPattern.Creational.Builder.Example3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,15 @@ namespace LearningDesignPattern.DesignPattern.Creational.Builder.Program
             program2.FluentBuilderInheritancewithRecursiveGenerics();
             Console.WriteLine("");
             Console.WriteLine("Fluent Builder Inheritance with Recursive Generics End");
+            #endregion
+
+            #region Example 3
+            var program3 = new ProgramBuilderExample3();
+            Console.WriteLine("Faceted Builder Start");
+            Console.WriteLine("");
+            program3.FacetedBuilder();
+            Console.WriteLine("");
+            Console.WriteLine("Faceted Builder End");
             #endregion
         }
     }
