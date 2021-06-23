@@ -1,4 +1,5 @@
 ﻿using LearningDesignPattern.DesignPattern.Creational.Builder.Program;
+using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -7,8 +8,10 @@ namespace LearningDesignPattern
     {
         static void Main(string[] args)
         {
-            ProgramBuilder.Run();
+            //Builder Pattern
+            //ProgramBuilder.Run();
 
+            ProgramPrototype.Run();
             Console.ReadKey();
         }
     }
