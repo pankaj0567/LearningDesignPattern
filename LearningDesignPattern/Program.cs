@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearningDesignPattern.DesignPattern.Creational.Builder.Program;
+using System;
 
 namespace LearningDesignPattern
 {
@@ -6,7 +7,9 @@ namespace LearningDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProgramBuilder.Run();
+
+            Console.ReadKey();
         }
     }
 }
