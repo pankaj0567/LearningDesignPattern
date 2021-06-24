@@ -2,6 +2,7 @@
 using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
 using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
 using LearningDesignPattern.DesignPattern.Structural.Adapter.Program;
+using LearningDesignPattern.DesignPattern.Structural.Bridge.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -20,7 +21,10 @@ namespace LearningDesignPattern
             //ProgramSingleton.Run();
 
             // Adapter
-            ProgramAdapter.Run();
+            //ProgramAdapter.Run();
+
+            // Bridge
+            ProgramBridge.Run();
 
 
             Console.ReadKey();
