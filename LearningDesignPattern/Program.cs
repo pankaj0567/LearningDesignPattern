@@ -4,6 +4,7 @@ using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
 using LearningDesignPattern.DesignPattern.Structural.Adapter.Program;
 using LearningDesignPattern.DesignPattern.Structural.Bridge.Program;
 using LearningDesignPattern.DesignPattern.Structural.Composite.Program;
+using LearningDesignPattern.DesignPattern.Structural.Decorator.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -28,7 +29,10 @@ namespace LearningDesignPattern
             //ProgramBridge.Run();
 
             // Composite
-            ProgramComposite.Run();
+            //ProgramComposite.Run();
+
+            //Decorator
+            ProgramDecorator.Run();
 
             Console.ReadKey();
         }
