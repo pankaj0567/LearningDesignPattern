@@ -3,6 +3,7 @@ using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
 using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
 using LearningDesignPattern.DesignPattern.Structural.Adapter.Program;
 using LearningDesignPattern.DesignPattern.Structural.Bridge.Program;
+using LearningDesignPattern.DesignPattern.Structural.Composite.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -11,7 +12,7 @@ namespace LearningDesignPattern
     {
         static void Main(string[] args)
         {
-            //Builder Pattern
+            // Builder Pattern
             //ProgramBuilder.Run();
 
             // Protottype pattern
@@ -24,8 +25,10 @@ namespace LearningDesignPattern
             //ProgramAdapter.Run();
 
             // Bridge
-            ProgramBridge.Run();
+            //ProgramBridge.Run();
 
+            // Composite
+            ProgramComposite.Run();
 
             Console.ReadKey();
         }
