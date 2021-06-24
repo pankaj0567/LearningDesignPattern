@@ -5,6 +5,7 @@ using LearningDesignPattern.DesignPattern.Structural.Adapter.Program;
 using LearningDesignPattern.DesignPattern.Structural.Bridge.Program;
 using LearningDesignPattern.DesignPattern.Structural.Composite.Program;
 using LearningDesignPattern.DesignPattern.Structural.Decorator.Program;
+using LearningDesignPattern.DesignPattern.Structural.Facade.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -31,8 +32,11 @@ namespace LearningDesignPattern
             // Composite
             //ProgramComposite.Run();
 
-            //Decorator
-            ProgramDecorator.Run();
+            // Decorator
+            //ProgramDecorator.Run();
+
+            // Facade
+            ProgramFacade.Run();
 
             Console.ReadKey();
         }
