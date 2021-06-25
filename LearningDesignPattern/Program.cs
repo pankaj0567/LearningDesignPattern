@@ -6,6 +6,7 @@ using LearningDesignPattern.DesignPattern.Structural.Bridge.Program;
 using LearningDesignPattern.DesignPattern.Structural.Composite.Program;
 using LearningDesignPattern.DesignPattern.Structural.Decorator.Program;
 using LearningDesignPattern.DesignPattern.Structural.Facade.Program;
+using LearningDesignPattern.DesignPattern.Structural.Flyweight.Program;
 using System;
 
 namespace LearningDesignPattern
@@ -36,7 +37,10 @@ namespace LearningDesignPattern
             //ProgramDecorator.Run();
 
             // Facade
-            ProgramFacade.Run();
+            //ProgramFacade.Run();
+
+            // Flyweight
+            ProgramFlyweight.Run();
 
             Console.ReadKey();
         }

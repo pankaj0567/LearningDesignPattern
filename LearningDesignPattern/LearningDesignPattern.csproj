@@ -11,7 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Practices.EnterpriseLibrary.2008" Version="4.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NHibernate" Version="5.3.8" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
   </ItemGroup>
 
 </Project>
