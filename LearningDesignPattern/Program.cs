@@ -1,6 +1,7 @@
 ﻿using LearningDesignPattern.DesignPattern.Behavioral.ChainOfResponsibility.Program;
 using LearningDesignPattern.DesignPattern.Behavioral.Command.Program;
 using LearningDesignPattern.DesignPattern.Behavioral.Interpreter.Program;
+using LearningDesignPattern.DesignPattern.Behavioral.Mediator.Program;
 using LearningDesignPattern.DesignPattern.Creational.Builder.Program;
 using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
 using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
@@ -52,7 +53,10 @@ namespace LearningDesignPattern
             //ProgramCommand.Run();
 
             // Interpreter
-            ProgramInterpreter.Run();
+            //ProgramInterpreter.Run();
+
+            // Mediator
+            ProgramMediator.Run();
 
             Console.ReadKey();
         }
