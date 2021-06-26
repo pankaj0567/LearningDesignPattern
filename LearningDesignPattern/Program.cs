@@ -1,4 +1,6 @@
 ﻿using LearningDesignPattern.DesignPattern.Behavioral.ChainOfResponsibility.Program;
+using LearningDesignPattern.DesignPattern.Behavioral.Command.Program;
+using LearningDesignPattern.DesignPattern.Behavioral.Interpreter.Program;
 using LearningDesignPattern.DesignPattern.Creational.Builder.Program;
 using LearningDesignPattern.DesignPattern.Creational.Prototype.Program;
 using LearningDesignPattern.DesignPattern.Creational.Singleton.Program;
@@ -44,7 +46,13 @@ namespace LearningDesignPattern
             //ProgramFlyweight.Run();
 
             // Chain Of Responsibility
-            ProgramChainOfResponsibility.Run();
+            //ProgramChainOfResponsibility.Run();
+
+            // Command  
+            //ProgramCommand.Run();
+
+            // Interpreter
+            ProgramInterpreter.Run();
 
             Console.ReadKey();
         }
